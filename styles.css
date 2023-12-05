@@ -1,0 +1,40 @@
+p,ul,li{
+    margin:0 0;
+    padding:0 0;
+}
+
+nav{
+    background-color: black;
+}
+
+.menu{
+    display:flex;
+    padding:1rem 0;
+}
+li{
+    margin:0 1rem;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.menu a:hover{
+    color:orange;
+}
+.submenu-content{
+    display:none;
+    position: absolute;
+    z-index:1;
+    background-color: black;
+}
+.submenu:hover .submenu-content{
+    display:block;
+}
+footer{
+    background-color: black;
+    
+}
+.social{
+    display:flex;
+    padding:1rem 0;
+}
